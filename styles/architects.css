@@ -59,6 +59,10 @@ main>section{
     margin-top: 100px;
 }
 
+.section-title{
+    font-size: 2.5rem;
+}
+
 
 
  /* header section starts */
@@ -144,16 +148,11 @@ main>section{
     
 }
 
-.feature-title{
-    font-size: 2.5rem;
-}
+
 
 #quick-list{
     font-weight: 500;
 }
-
-
-
 
 /* team and feature ends */
 
