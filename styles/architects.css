@@ -182,10 +182,22 @@ main>section{
     font-weight: 600;
     font-size: 1.25rem;
     margin-top: 0px;
-    margin-bottom: 0px;
-   
-    
+    margin-bottom: 0px; 
+
 }
+
+#experience-badge{
+    padding: 45px 45px;
+    font-size: 1.2rem;
+    margin-left: -100px;
+    margin-top: -200px;
+}
+
+#experience-year{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
 
 
 /* features enjoy ends */
@@ -261,7 +273,9 @@ main>section{
 
  @media screen and (max-width:576px){
     .navbar, 
-    .nav-links, .teams{
+    .nav-links, 
+    .teams, 
+    .features-enjoy{
         flex-direction: column;
     }
 
@@ -269,6 +283,20 @@ main>section{
     .facts-container, 
     .sponser-companies{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features-enjoy-image img{
+        width: 100%;
+    }
+
+    #experience-badge{
+        margin-left: 70px;
+        max-width: 100%;
+        padding: 10px 14px;
+    }
+
+    #experience-year{
+        font-size: 2rem;
     }
 
     .facts-container{
