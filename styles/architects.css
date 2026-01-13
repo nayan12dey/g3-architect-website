@@ -70,6 +70,10 @@ main>section{
     font-size: 2.5rem;
 }
 
+.gap{
+    margin-bottom: 20px;
+}
+
 
 /*  shared styles ends */
 
@@ -107,7 +111,6 @@ main>section{
 .banner-title{
     font-size: 3.5rem;
     font-weight: bold;
-    margin-bottom: 20px;
 }
 
 .banner-btn{
@@ -165,6 +168,9 @@ main>section{
 .our-features{
     margin-left: 4.5rem;
     max-width: 530px;
+}
+
+.our-features .section-title{
     
 }
 
