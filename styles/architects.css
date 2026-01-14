@@ -286,12 +286,13 @@ main>section{
 }
 
 .sponsor-companies{
+    /* border: 1px solid blue; */
     display: grid;
-    /* grid-template-columns: repeat(5, 1fr); */
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
     /* gap: 40px; */
     justify-content: center;
     align-items: center;
+    margin-left: 3rem;
 }
 
 .sponsor-companies img{
@@ -300,6 +301,26 @@ main>section{
 
 
 /*  Sponsors ends */
+
+
+/*  footer starts */
+
+footer{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-top: 100px auto;
+}
+
+.copyright{
+   width: 1440px;
+   padding: 1.3rem;
+   text-align: center;
+   margin: 4rem;
+}
+
+
+/*  footer ends */
 
 
 
