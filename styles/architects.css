@@ -185,6 +185,7 @@ main>section{
 /* features enjoy starts */
 
 .features-enjoy{
+    max-width: 100%;
     display: flex;
     gap: 100px;
 }
@@ -198,6 +199,7 @@ main>section{
     max-width: 500px;
     padding: 30px;
     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    margin-top: 30px;
     margin-bottom: 20px;
     border-radius: 8px;
 }
@@ -210,11 +212,15 @@ main>section{
 
 }
 
+.features-enjoy-image img{
+    width: 90%;
+}
+
 #experience-badge{
-    padding: 45px 45px;
+    padding: 35px 40px;
     font-size: 1.2rem;
-    margin-left: -100px;
-    margin-top: -200px;
+    margin-left: -150px;
+    margin-top: -400px;
 }
 
 #experience-year{
